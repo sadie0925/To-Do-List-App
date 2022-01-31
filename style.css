@@ -1,0 +1,45 @@
+body{
+    background:linear-gradient(0deg,#24c1ff, #87ceeb);
+    width: 100%;
+    height: 100vh;
+}
+
+.form{
+    width:40%;
+    min-width:450px;
+    position:absolute;
+    transform:translate (-50%, -50%);
+    top: 0%;
+    left: 0%;
+    padding: 30px 40px;
+}
+
+#field{
+    background: linear-gradient( rgba(255, 255, 255, 0.281) );
+    width:50%;
+    height:40px;
+    box-shadow:none;
+    font-size: 15px;
+    border:none;
+}
+#addButton{
+    background-color: rgb(23, 195, 238);
+    border:rgba(187, 239, 248, 0.397);
+    width:16%;
+    height:45px;
+    border-radius:5px;
+    font-weight:500;
+    color: white;
+}
+.space{
+    margin: 0px 0px 0px 30px;
+}
+.anotherPararaph{
+    margin:0;
+    cursor:pointer;
+    font-size: 10px;
+}
+
+.goal{
+  font-size: 20px;
+}
