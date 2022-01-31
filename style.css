@@ -34,12 +34,25 @@ body{
 .space{
     margin: 0px 0px 0px 30px;
 }
-.anotherPararaph{
-    margin:0;
-    cursor:pointer;
-    font-size: 10px;
-}
 
 .goal{
-  font-size: 20px;
+  font-size: 25px;
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+} 
+
+
+.line {
+  background-color: #fff;
+  border-radius:50px;
+  position:absolute;
+}
+input[type="checkbox"]+ label {
+  font-size:20px;
+}
+
+input[type = "checkbox"] {
+  transform: scale(1.5);
 }
